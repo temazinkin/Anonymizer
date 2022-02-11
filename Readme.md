@@ -11,3 +11,36 @@
 
 ## Как работает
 Coming Soon, WIP
+
+### Шаблон правил обезличивания
+```json lines
+{
+    "example-1/*.xsl?": {
+        "sheet1": {
+            "has_title": true,
+            "A": {
+                "algorithm": "just_copy",
+                "params": null
+            },
+            "B": {
+                "algorithm": "just_copy",
+                "params": null
+            }
+        }
+    }
+}
+```
+
+```json
+{
+    "**/*.xsl?": {
+        "sheet1": {
+            "has_title": false,
+            "A": {
+                "algorithm": "just_copy",
+                "params": null
+            }
+        }
+    }
+}
+```
