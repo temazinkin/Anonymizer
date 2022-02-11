@@ -1,0 +1,64 @@
+{
+    "/secret/data/Пример 3. Листы — Конфиденциальные данные.xlsx": {
+        "Ведомость": {
+            "A": {
+                "algorithm": "just_copy",
+                "params": null
+            },
+            "B": {
+                "algorithm": "just_copy",
+                "params": null
+            },
+            "C": {
+                "algorithm": "just_copy",
+                "params": null
+            },
+            "D": {
+                "algorithm": "just_copy",
+                "params": null
+            },
+            "E": {
+                "algorithm": "just_copy",
+                "params": null
+            },
+            "has_title": true
+        },
+        "Список": {
+            "A": {
+                "algorithm": "just_copy",
+                "params": null
+            },
+            "has_title": true
+        }
+    },
+    "/secret/Пример 1. ФИО — Конфиденциальные данные.xlsx": {
+        "Ведомость": {
+            "A": {
+                "algorithm": "just_copy",
+                "params": null
+            },
+            "has_title": true
+        }
+    },
+    "/secret/Пример 2. Цифры — Конфиденциальные данные.xlsx": {
+        "Ведомость": {
+            "A": {
+                "algorithm": "just_copy",
+                "params": null
+            },
+            "B": {
+                "algorithm": "just_copy",
+                "params": null
+            },
+            "C": {
+                "algorithm": "just_copy",
+                "params": null
+            },
+            "D": {
+                "algorithm": "just_copy",
+                "params": null
+            },
+            "has_title": true
+        }
+    }
+}
