@@ -23,9 +23,10 @@ def write_to_json(
     return filename
 
 
-def _get_json_filename(filename: str):
+def _get_json_filename(filename: str) -> str:
     """
     Добавляет расширение .json при необходимости
     """
-    filename = '.json' == str(filename)[-5:] and filename or f'{filename}.json'
-    return filename
+    fn = str(filename)
+    fn = '.json' == fn[-5:] and fn or f'{fn}.json'
+    return fn
